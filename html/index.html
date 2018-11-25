@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- Bootstrap CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Fonts -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Styles-->
+  <link href="css/mywebsite.css" rel="stylesheet">
+
+  <title>Marta Hendel</title>
+</head>
+<body>
+@@include('./header/index.html')
+@@include('./projects/index.html')
+@@include('./about/index.html')
+@@include('./contact/index.html')
+@@include('./footer/index.html')
+<script>
+  const links = document.querySelectorAll('a');
+  links.forEach(link => {
+    link.addEventListener('click', (e) => e.preventDefault())
+  })
+</script>
+</body>
+
+</html>

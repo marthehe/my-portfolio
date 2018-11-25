@@ -1,0 +1,53 @@
+.nav {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    @include heading-font;
+    
+    &__navbar-brand {
+      color: $white;
+    }
+
+    &__toggler {
+        font-size: 80%;
+        padding: 0.8rem;
+    }
+
+    &__list {
+      margin-top: 1rem;
+      letter-spacing: 0.0625rem;
+    }
+
+    &__item-link {
+          color: $white;
+          &:hover {
+            color: $primary;
+          }
+          &:active,
+          &:focus {
+            color: $white;
+          }
+          &.active {
+            color: $primary;
+          }
+    }
+    
+  }
+
+  .header {
+
+    &__hero {
+      padding-top: calc(6rem + 72px);
+      padding-bottom: 6rem;
+    }
+    
+    &__heading--uppercase {
+      font-size: 3rem;
+      line-height: 3rem;
+      @include heading-font;
+    }
+
+    &__subheading {
+      font-size: 1.3rem;
+      @include body-font;
+    }
+  }
