@@ -3,20 +3,7 @@
     padding-bottom: 1rem;
     @include heading-font;
     
-    &__navbar-brand {
-      color: $white;
-    }
-
-    &__toggler {
-        font-size: 80%;
-        padding: 0.8rem;
-    }
-
-    &__list {
-      margin-top: 1rem;
-      letter-spacing: 0.0625rem;
-    }
-
+    &__navbar-brand,
     &__item-link {
           color: $white;
           &:hover {
@@ -30,6 +17,18 @@
             color: $primary;
           }
     }
+
+    &__toggler {
+        font-size: 80%;
+        padding: 0.8rem;
+    }
+
+    &__list {
+      margin-top: 1rem;
+      letter-spacing: 0.0625rem;
+    }
+
+    
     
   }
 

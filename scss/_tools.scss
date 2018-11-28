@@ -1,0 +1,17 @@
+.technologies {
+
+    &__list-icon {
+        display: flex;
+    }
+
+    &__icon {
+        font-size: 100px;
+        padding-top: 40px;
+    }   
+}
+
+svg {
+    width: 140px;
+    height: 140px;
+    padding-top: 30px; 
+}

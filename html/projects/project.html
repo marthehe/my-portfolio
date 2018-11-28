@@ -2,9 +2,18 @@
     <h2 class="project__heading text-center text-uppercase text-secondary">Projects</h2>
     <div class="project__contianer container">
         <div class="row">
-            @@include('./project-card_food.html')  
-            @@include('./project-card_food.html')  
-            @@include('./project-card_food.html')  
+            @@include('./project-card_food.html', {
+                "title": "calculator"
+               
+            })  
+            @@include('./project-card_food.html', {
+                "title": "omnifood"
+               
+            })  
+            @@include('./project-card_food.html', {
+                "title": "my portfolio"
+            })  
+              
         </div>
     </div>
 </section>

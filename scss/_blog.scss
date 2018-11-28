@@ -1,13 +1,17 @@
 .project {
+  &__card {
+    border: 1px solid rgba($color: #000000, $alpha: 0.125);
+    border-radius: 0.25rem;
+    margin: 1.5rem 1rem;
+  }
 
-    &__card {
-        border: 1px solid rgba($color: #000000, $alpha: 0.125);
-        border-radius: .25rem;
-        margin: 1.5rem 1rem;
+  &__card-link {
+    color: $primary;
+    &:hover,
+    &:focus,
+    &:active {
+        color: darken($primary, 10%);
     }
-
-    &__card-link {
-            color: #B84E63; }
-            a:focus, a:hover, a:active {
-              color: #973c4e; } 
-    }
+  }
+}
+ 

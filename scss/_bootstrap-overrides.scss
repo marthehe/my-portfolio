@@ -1,13 +1,4 @@
 //  Bootstrap overrides for this template
-a {
-  color: $white;
-  &:focus,
-  &:hover,
-  &:active {
-    color: darken($primary, 10%);
-  }
-}
-
 .btn {
   border-width: 2px;
 }
@@ -28,16 +19,7 @@ a {
   color: $secondary !important;
 }
 
-.btn-primary {
-  background-color: $primary;
-  border-color: $primary;
-  &:hover,
-  &:focus,
-  &:active {
-    background-color: darken($primary, 10%);
-    border-color: darken($primary, 10%);
-  }
-}
+
 
 .btn-secondary {
   background-color: $secondary;
