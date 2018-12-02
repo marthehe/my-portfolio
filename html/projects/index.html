@@ -1,1 +1,22 @@
-@@include('project.html')
+<section class="project py-5">
+        <div class="project__container container">
+    
+            <h2 class="project__heading text-center text-uppercase text-secondary mb-3">Projects</h2>
+        
+            <div class="row">
+                @@include('./project-card_food.html', {
+                    "title": "calculator"
+                   
+                })  
+                @@include('./project-card_food.html', {
+                    "title": "omnifood"
+                   
+                })  
+                @@include('./project-card_food.html', {
+                    "title": "my portfolio"
+                })  
+                  
+            </div>
+        </div>
+        </div>
+    </section>

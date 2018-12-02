@@ -1,10 +1,22 @@
-<div class="col-md-4">
-    <div class="project__card card-flex-md row h-md-250">
+<div class="col col-md-4">
+    <div class="project__card card-flex-md">
         <div class="project__card-body card-body d-flex flex-column align-items-start">
             <h4 class="project__card-title card-title d-inline-block mb-2 text-secondary text-uppercase">
                 @@title
             </h4>
-            <p class="project__card-paragraph card-text mb-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem cumque dolorem explicabo iste natus doloremque.</p>
+            <p class="project__card-paragraph card-text mb-auto">
+                @@if (title === 'calculator') {
+                    A calculator app created with create-react-app that provides the basic arithmetic operations. 
+                }
+
+                @@if (title === 'my portfolio') {
+                    Simple responsive one-page portfolio website. Using Bootstrap, Sass and JavaScript. 
+                }
+
+                @@if (title === 'omnifood') {
+                    This is simple responisive one-page website featuring Omnifood brand. Using subtel CSS animations.
+                }
+            </p>
             <ul class="list-inline mb-0">
                 <li class="list-inline-item">
                     

@@ -18,10 +18,18 @@
           }
     }
 
-    &__toggler {
+    &__toggler--uppercase {
         font-size: 80%;
         padding: 0.8rem;
-    }
+        border-color: $primary;
+        background-color: $primary;
+        &:hover,
+        &:focus,
+        &:active {
+          background-color: darken($primary, 10%);
+          border-color: darken($primary, 10%);
+        }
+      }
 
     &__list {
       margin-top: 1rem;
