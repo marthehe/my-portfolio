@@ -1,14 +1,13 @@
 .footer {
     &__social-link {
-        width: 44px;
-        height: 44px;
-        color: $white;
+        align-items: center;
         border: 3px solid $white;
         border-radius: 50%;
+        color: $white;
         display: flex;
+        height: 44px;
         justify-content: center;
-        align-items: center;
-        
+        width: 44px;
 
         &:hover,
         &:focus,

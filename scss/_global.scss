@@ -1,6 +1,6 @@
 // Typography
 body {
-  @include body-font;
+    @include body-font;
 }
 
 h1,
@@ -9,8 +9,5 @@ h3,
 h4,
 h5,
 h6 {
-  @include heading-font;
+    @include heading-font;
 }
-
-
-

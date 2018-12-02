@@ -1,19 +1,28 @@
 {
-  "name": "mywebsite",
-  "version": "1.0.0",
-  "description": "my website",
-  "main": "gulpfile.js",
-  "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.4.1",
-    "gulp": "^3.9.1",
-    "gulp-file-include": "^2.0.1",
-    "gulp-include": "^2.3.1",
-    "gulp-watch": "^5.0.1"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "mywebsite",
+    "version": "1.0.0",
+    "description": "my website",
+    "main": "gulpfile.js",
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.4.1",
+        "gulp": "^3.9.1",
+        "gulp-file-include": "^2.0.1",
+        "gulp-include": "^2.3.1",
+        "gulp-watch": "^5.0.1",
+        "prettier": "^1.15.3",
+        "prettier-stylelint": "^0.4.2",
+        "stylelint": "^9.9.0",
+        "stylelint-config-sass-guidelines": "^5.2.0",
+        "stylelint-order": "^2.0.0",
+        "stylelint-prettier": "^1.0.5",
+        "stylelint-scss": "^3.4.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "stylelint": "stylelint 'scss/**/*.scss'",
+        "stylelint:fix": "stylelint 'scss/**/*.scss' --fix",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
 }

@@ -1,60 +1,60 @@
 .nav {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
     @include heading-font;
-    
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+
     &__navbar-brand,
     &__item-link {
-          color: $white;
-          &:hover {
+        color: $white;
+
+        &:hover {
             color: $primary;
-          }
-          &:active,
-          &:focus {
+        }
+
+        &:active,
+        &:focus {
             color: $white;
-          }
-          &.active {
+        }
+
+        &.active {
             color: $primary;
-          }
+        }
     }
 
     &__toggler--uppercase {
+        background-color: $primary;
+        border-color: $primary;
         font-size: 80%;
         padding: 0.8rem;
-        border-color: $primary;
-        background-color: $primary;
+
         &:hover,
         &:focus,
         &:active {
-          background-color: darken($primary, 10%);
-          border-color: darken($primary, 10%);
+            background-color: darken($primary, 10%);
+            border-color: darken($primary, 10%);
         }
-      }
+    }
 
     &__list {
-      margin-top: 1rem;
-      letter-spacing: 0.0625rem;
+        letter-spacing: 0.0625rem;
+        margin-top: 1rem;
     }
+}
 
-    
-    
-  }
-
-  .header {
-
+.header {
     &__hero {
-      padding-top: calc(6rem + 72px);
-      padding-bottom: 6rem;
+        padding-bottom: 6rem;
+        padding-top: calc(6rem + 72px);
     }
-    
+
     &__heading--uppercase {
-      font-size: 3rem;
-      line-height: 3rem;
-      @include heading-font;
+        @include heading-font;
+        font-size: 3rem;
+        line-height: 3rem;
     }
 
     &__subheading {
-      font-size: 1.3rem;
-      @include body-font;
+        @include body-font;
+        font-size: 1.3rem;
     }
-  }
+}

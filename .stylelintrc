@@ -1,0 +1,10 @@
+{
+    "extends": "stylelint-config-sass-guidelines",
+    "plugins": ["stylelint-scss", "stylelint-order", "stylelint-prettier"],
+    "rules": {
+        "prettier/prettier": true,
+        "order/properties-alphabetical-order": null,
+        "indentation": 4,
+        "max-nesting-depth": 2
+    }
+}
