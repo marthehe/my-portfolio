@@ -2,6 +2,9 @@
     @include heading-font;
     padding-bottom: 1rem;
     padding-top: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1030;
 
     &__navbar-brand,
     &__item-link {
@@ -21,7 +24,7 @@
         }
     }
 
-    &__toggler--uppercase {
+    &__toggler {
         background-color: $primary;
         border-color: $primary;
         font-size: 80%;
@@ -44,10 +47,10 @@
 .header {
     &__hero {
         padding-bottom: 6rem;
-        padding-top: calc(6rem + 72px);
+        padding-top: 6rem;
     }
 
-    &__heading--uppercase {
+    &__heading {
         @include heading-font;
         font-size: 3rem;
         line-height: 3rem;
